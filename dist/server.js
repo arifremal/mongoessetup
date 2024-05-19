@@ -11,7 +11,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 const mongoose = require('mongoose');
 function main() {
     return __awaiter(this, void 0, void 0, function* () {
-        yield mongoose.connect(process.env.);
+        yield mongoose.connect(process.env);
     });
 }
 app.listen(port, () => {
